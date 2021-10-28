@@ -9,7 +9,7 @@ SmileyFace [] faces = new SmileyFace [32]; // declare an array of 32 smiley face
 
 //SETUP IS WHERE WE DO SOME INITIALIZATING of ENVIRONMENT
 void setup(){
-  size(512,512); // size of our canvas in pixels
+  size(1024,512); // size of our canvas in pixels
   smileX = 255; // set initial value
   smileY = 255; // set initial value
   head = new SmileyFace(255,128);
