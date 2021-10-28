@@ -22,13 +22,13 @@ void setup(){
 
 
 void draw(){
- 
+ /*
   if (smileX > 250 && smileX < 260 && // will make background pink
       smileY > 250 && smileY < 260){
     background(255,170,238); // the color combo for FAE a pink
   } else {
   background(255);// sets color of our canvas to white
-  }
+  } */
   // let's make a smiley face
   fill(255); // fill petals with white
   stroke(0); // stroke color will be black

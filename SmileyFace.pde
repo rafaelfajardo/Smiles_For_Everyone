@@ -25,8 +25,8 @@ class SmileyFace { // declare and define a class
     currentFaceColor = color(245,220,66); // initialize
     currentEyeColor = color(255,255,255);
     currentStrokeColor = color(0,0,0);
-    //velocityX = random(-1,1);
-    //velocityY = random(-1,1);
+    velocityX = random(-1,1);
+    velocityY = random(-1,1);
   }
   
   void updateFace(){ // the method will update SmileyFace and be called from draw loop in main
@@ -40,7 +40,7 @@ class SmileyFace { // declare and define a class
           }
       currentX = currentX + velocityX;
       currentY = currentY + velocityY;
-      //currentStrokeColor = color(random(128));
+      currentStrokeColor = color(random(128));
   }
   void drawFace(){ // this method will draw SmileyFace and be called from draw loop in main
     fill(currentFaceColor); // defines the color of the face
